@@ -115,7 +115,7 @@ function brm_support_display() {
 </ul>
 <hr>
 <ul>
-    <li><strong>Downlaod Website Files:</strong> <a href="#">View Repository</a></li>
+    <li><strong>Download Website Files:</strong> <a href="https://github.com/brmullikin/ubti">View Repository (Requires Login)</a></li>
 </ul>
 <hr>
 <p style="text-align:center;font-style:italic;">Do you need marketing, social, or SEO help? <a href="mailto:info@keymarketinggroup.biz">Ask us how we can help!</a></p>
