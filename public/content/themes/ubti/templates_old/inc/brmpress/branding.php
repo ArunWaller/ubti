@@ -43,7 +43,7 @@ function brm_login_logo_url_title() {
 }
 
 function brm_admin_footer_text () {
-  echo 'Website developed by <a href="http://keymarketinggroup.biz/contact.htm">Key Marketing Group</a>. For support, email <a href="mailto:info@keymarketinggroup.biz">info@keymarketinggroup.biz</a>.';
+  echo 'Website developed by <a href="http://keymarketinggroup.biz/contact.htm">Key Marketing Group</a>. For support, email <a href="mailto:scott@keymarketinggroup.biz">scott@keymarketinggroup.biz</a>.';
 }
 
 function change_howdy($translated, $text, $domain) {
@@ -103,7 +103,7 @@ function brm_support_display() {
 <p><strong>Congratulations</strong> on your new website built by <a href="http://keymarketinggroup.biz/">Key Marketing Group</a>. Your new website comes with <strong>6 months</strong> of technical support, ending on <strong>August 10<sup>th</sup>, 2017</strong>.</p>
 <h3 style="font-weight:bold;">Technical Support:</h3>
 <ul style="margin-top:0;">
-    <li><strong>Email:</strong> <a href="mailto:info@keymarketinggroup.biz">info@keymarketinggroup.biz</a></li>
+    <li><strong>Email:</strong> <a href="mailto:scott@keymarketinggroup.biz">scott@keymarketinggroup.biz</a></li>
     <li><strong>Phone:</strong> (657) 235-5230</li>
 </ul>
 <hr>
@@ -118,7 +118,7 @@ function brm_support_display() {
     <li><strong>Download Website Files:</strong> <a href="https://github.com/brmullikin/ubti">View Repository (Requires Login)</a></li>
 </ul>
 <hr>
-<p style="text-align:center;font-style:italic;">Do you need marketing, social, or SEO help? <a href="mailto:info@keymarketinggroup.biz">Ask us how we can help!</a></p>
+<p style="text-align:center;font-style:italic;">Do you need marketing, social, or SEO help? <a href="mailto:scott@keymarketinggroup.biz">Ask us how we can help!</a></p>
 EOT;
 }
 
