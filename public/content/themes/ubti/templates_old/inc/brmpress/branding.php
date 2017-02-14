@@ -80,14 +80,14 @@ function register_widgets() {
     global $wp_meta_boxes;
     // $wp_meta_boxes['dashboard']['normal']['core'] = array();
     // $wp_meta_boxes['dashboard']['side']['core'] = array();
-    add_meta_box(
-        'brm_widget',
-        'Website Support',
-        'brm_support_display',
-        'dashboard',
-        'normal',
-        'high'
-    );
+    // add_meta_box(
+    //     'brm_widget',
+    //     'Website Support',
+    //     'brm_support_display',
+    //     'dashboard',
+    //     'normal',
+    //     'high'
+    // );
     // add_meta_box(
     //     'brm_maintenance_widget',
     //     'Update Schedule',
