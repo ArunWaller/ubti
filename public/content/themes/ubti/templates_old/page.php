@@ -15,10 +15,6 @@ get_header(); ?>
 <div class="wrap-content page single">
   <div class="container">
     <div class="row">
-
-      <div class="col-md-3 col-sm-12 sidebar">
-        <?php get_sidebar(); ?>
-      </div>
       <div class="col-md-9 col-sm-12 page-content">
         <nav class="visible-md visible-lg">
           <ol class="cd-breadcrumb triangle clearfix">
@@ -37,7 +33,7 @@ get_header(); ?>
 				<?php endwhile; // End of the loop. ?>
                 
                 
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -55,6 +51,9 @@ get_header(); ?>
     </div><!-- /.modal-dialog -->
   </div>
 
+      </div>
+      <div class="col-md-3 col-sm-12 sidebar">
+        <?php get_sidebar(); ?>
       </div>
     </div>
   </div>

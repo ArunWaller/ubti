@@ -54,7 +54,7 @@ $('nav#access ul li:hover').click(function(){
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display-->
     <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <button type="button" data-toggle="collapse" data-target="#menu-main_menu" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       <?php if ( is_front_page() || is_home() ) : ?>
 				<h1 class="site-title"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
@@ -70,8 +70,8 @@ $('nav#access ul li:hover').click(function(){
 			 'depth'           =>     2,
 			 'container'       =>     'div',
 			 'container_class' =>     'collapse navbar-collapse',
-			 'container_id'    =>     'bs-example-navbar-collapse-1',
-			 'menu_class'      =>     'nav navbar-nav navbar-right',
+			 'container_id'    =>     'menu-main_menu',
+			 'menu_class'      =>     'nav navbar-nav navbar-right collapse',
 			 'fallback_cb'     =>     'wp_bootstrap_navwalker::fallback',
 			 'walker'          =>     new wp_bootstrap_navwalker())
 			);
