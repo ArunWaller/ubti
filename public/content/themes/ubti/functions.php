@@ -83,6 +83,9 @@ function ubti_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'ubti' ),
 		'sidemenu' => esc_html__( 'Sidebar Menu', 'ubti' ),
+		'aerospace_menu' => esc_html__( 'Aerospace Menu', 'ubti' ),
+		'finance_menu' => esc_html__( 'Finance Menu', 'ubti' ),
+		'healthcare_menu' => esc_html__( 'Healthcare Menu', 'ubti' ),
 	) );
 
 	/*

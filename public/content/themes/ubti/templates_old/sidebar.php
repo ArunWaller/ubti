@@ -42,4 +42,3 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
   </div><!-- /.modal -->
 
 <?php //endif; ?>
-<?php wp_nav_menu( array( 'theme_location' => 'sidemenu', 'menu_id' => 'side-menu', 'menu_class' => 'menu-sidebar') ); ?>
