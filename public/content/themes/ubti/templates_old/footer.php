@@ -15,7 +15,7 @@
 ?>
     <footer>
       <!--<a href="#" class="scrollup"><span aria-hidden="true" class="glyphicon glyphicon-chevron-up"></span></a>-->
-      <div class="container text-center">Copyright UBTI, Inc. &copy; 2017 | <a href="http://www.ubtiinc.com/Sitemap/">Sitemap</a> </div>
+      <div class="container text-center">Copyright UBTI, Inc. &copy; 2017 | <a href="/Sitemap/">Sitemap</a> </div>
     </footer>
 
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() ?>/static/dist/js/my.js"></script>
