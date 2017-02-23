@@ -17,7 +17,7 @@ get_header(); ?>
     <div class="row">
 
       <div class="col-sm-12">	
-        <nav class="visible-md visible-lg">
+        <nav class="hidden-xs">
           <ol class="cd-breadcrumb triangle clearfix">
 						<?php
 							if(function_exists('bcn_display')) {

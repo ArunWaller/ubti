@@ -40,7 +40,7 @@ get_header(); ?>
 
 <div class="wrap-content archive">
   <div class="container">
-    <nav class="visible-md visible-lg">
+    <nav class="hidden-xs">
       <ol class="cd-breadcrumb triangle clearfix">
         <?php
           if(function_exists('bcn_display')) {
