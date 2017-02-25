@@ -1,0 +1,20 @@
+{
+  "name": "BRMPress",
+  "version": "0.0.1",
+  "homepage": "https://github.com/brmullikin/brmpress",
+  "authors": [
+    "B. R. Mullikin <ben@brmullikin.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "brmwebdev/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0",
+    "jquery": "~3.0",
+    "font-awesome": "~4.6.3"
+  }
+}
